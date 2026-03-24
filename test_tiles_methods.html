@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="//unpkg.com/globe.gl"></script>
+</head>
+<body>
+  <div id="earth"></div>
+  <script>
+    const earth = Globe()(document.getElementById('earth'));
+    const methods = Object.keys(earth).filter(k => k.toLowerCase().includes('tile'));
+    console.log("METHODS:", methods);
+  </script>
+</body>
+</html>

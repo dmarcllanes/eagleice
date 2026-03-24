@@ -1,0 +1,26 @@
+# Version control
+.git
+.gitignore
+
+# Python artifacts
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv
+
+# uv cache
+.uv
+
+# Runtime / local data (db is populated at runtime, not baked in)
+data/
+
+# Dev / docs
+*.md
+CLAUDE.md
+FOLDER_STRUCTURE.md
+
+# Python version pin (base image already locks this)
+.python-version
